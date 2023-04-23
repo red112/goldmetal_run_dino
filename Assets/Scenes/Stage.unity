@@ -1099,6 +1099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b993dc2dadc294db34d04854d6d63c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startJumpPower: 7
+  startJumpPower: 4
   jumpPower: 1
   isGround: 0

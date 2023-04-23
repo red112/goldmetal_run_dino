@@ -7,9 +7,10 @@ https://www.youtube.com/watch?v=EA6e3UeC_Ik
 02. 2D 물리 - https://youtu.be/EA6e3UeC_Ik?t=2275
 03. 애니메이션 - https://youtu.be/EA6e3UeC_Ik?t=3154
 04. 플레이어 로직
-    점프 AddForce - https://youtu.be/EA6e3UeC_Ik?t=4168
-    점프 애니메이션 - https://youtu.be/EA6e3UeC_Ik?t=5620
-    
+-    점프 AddForce - https://youtu.be/EA6e3UeC_Ik?t=4168
+-    점프 애니메이션 - https://youtu.be/EA6e3UeC_Ik?t=5620
+-	 장애물 터치 - https://youtu.be/EA6e3UeC_Ik?t=7066
+
 
 05. 무한 스크롤링 시스템
 06. 게임매니저

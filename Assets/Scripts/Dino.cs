@@ -27,9 +27,38 @@ public class Dino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Jump")) {
+        if (Input.GetButtonDown("Jump"))
+        {
             rigid.AddForce(Vector2.up * startJumpPower, ForceMode2D.Impulse);
         }
-        
+        else if (Input.GetButton("Jump"))
+        {
+            jumpPower = Mathf.Lerp(jumpPower, 0, 0.1f);
+            rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+        }
+
+    }
+
+    void ChangingAnim(State state)
+    {
+        anim.SetInteger("State", (int)state);
+
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (!isGround)
+        {
+            ChangingAnim(State.Run);
+            jumpPower = 1;
+        }
+
+        isGround = true;        
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        ChangingAnim(State.Jump);
+        isGround = false;        
     }
 }
