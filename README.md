@@ -10,9 +10,9 @@ https://www.youtube.com/watch?v=EA6e3UeC_Ik
 -    점프 AddForce - https://youtu.be/EA6e3UeC_Ik?t=4168
 -    점프 애니메이션 - https://youtu.be/EA6e3UeC_Ik?t=5620
 -	 장애물 터치 - https://youtu.be/EA6e3UeC_Ik?t=7066
-
-
 05. 무한 스크롤링 시스템
+-	 스크롤 배견 - https://youtu.be/EA6e3UeC_Ik?t=7824
+-	 스크롤 스크립트 - https://youtu.be/EA6e3UeC_Ik?t=9018
 06. 게임매니저
 07. 장애물 만들기
 08. UI 제작

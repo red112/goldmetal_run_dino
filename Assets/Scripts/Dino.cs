@@ -8,6 +8,7 @@ public class Dino : MonoBehaviour
     public float startJumpPower;
     public float jumpPower;
     public bool isGround;
+    public bool isJumpKey;
 
     Rigidbody2D rigid;
     Animator anim;
@@ -27,16 +28,20 @@ public class Dino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGround)
         {
             rigid.AddForce(Vector2.up * startJumpPower, ForceMode2D.Impulse);
         }
-        else if (Input.GetButton("Jump"))
+        isJumpKey = Input.GetButton("Jump");
+    }
+
+    private void FixedUpdate()
+    {
+        if (isJumpKey && !isGround)
         {
             jumpPower = Mathf.Lerp(jumpPower, 0, 0.1f);
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
         }
-
     }
 
     void ChangingAnim(State state)
@@ -60,5 +65,11 @@ public class Dino : MonoBehaviour
     {
         ChangingAnim(State.Jump);
         isGround = false;        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        rigid.simulated = false;
+        ChangingAnim(State.Hit);
     }
 }
