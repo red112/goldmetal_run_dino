@@ -36,3 +36,7 @@ WebGL Support
 
 # 골드메탈님의 에셋
 https://www.goldmetal.co.kr/post/b02-dinorun-remake
+
+# 배포 사이트
+https://itch.io/
+
