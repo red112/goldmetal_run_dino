@@ -23,8 +23,11 @@ https://www.youtube.com/watch?v=EA6e3UeC_Ik
 09. 사운드 시스템
 -   https://youtu.be/EA6e3UeC_Ik?t=15750
 10. 포스트 프로세싱
--   https://youtu.be/EA6e3UeC_Ik?t=16343
+-   Bloom/Vignette - https://youtu.be/EA6e3UeC_Ik?t=16343
+-   UI제외 처리 - https://youtu.be/EA6e3UeC_Ik?t=16608 (Canvas의 RenderCamera를 None으로 하면 됨)
 11. 웹 빌드 및 배포
+-   https://youtu.be/EA6e3UeC_Ik?t=17429
+-   빌드 오류 시 'Clean Build'로 다시 시도.
 
 
 # Unity3d
