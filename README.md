@@ -13,9 +13,9 @@ https://www.youtube.com/watch?v=EA6e3UeC_Ik
 05. 무한 스크롤링 시스템
 -	 스크롤 배견 - https://youtu.be/EA6e3UeC_Ik?t=7824
 -	 스크롤 스크립트 - https://youtu.be/EA6e3UeC_Ik?t=9018
-06. 게임매니저 - https://youtu.be/EA6e3UeC_Ik?t=10507
-
-07. 장애물 만들기
+06. 게임매니저
+-   게임 종료 처리 - https://youtu.be/EA6e3UeC_Ik?t=10507
+07. 장애물 만들기 - https://youtu.be/EA6e3UeC_Ik?t=11963
 08. UI 제작
 09. 사운드 시스템
 10. 포스트 프로세싱

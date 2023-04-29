@@ -16,7 +16,9 @@ public class Scroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(speedRate * Time.deltaTime * -1f, 0,0);
-        
+        if (!GameManager.isLive)
+            return;
+        float totalSpeed = GameManager.globalSpeed * speedRate * Time.deltaTime * -1f;
+        transform.Translate(totalSpeed, 0, 0);
     }
 }
