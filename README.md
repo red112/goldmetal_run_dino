@@ -23,6 +23,7 @@ https://www.youtube.com/watch?v=EA6e3UeC_Ik
 09. 사운드 시스템
 -   https://youtu.be/EA6e3UeC_Ik?t=15750
 10. 포스트 프로세싱
+-   https://youtu.be/EA6e3UeC_Ik?t=16343
 11. 웹 빌드 및 배포
 
 

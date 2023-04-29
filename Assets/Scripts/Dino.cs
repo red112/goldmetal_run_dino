@@ -14,17 +14,19 @@ public class Dino : MonoBehaviour
 
     Rigidbody2D rigid;
     Animator anim;
+    Sounder sound;
 
     // Start is called before the first frame update
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        sound = GetComponent<Sounder>();
         
     }
     void Start()
     {
-        
+        sound.PlaySound(Sounder.Sfx.Reset);
     }
 
     // �⺻����
@@ -67,6 +69,7 @@ public class Dino : MonoBehaviour
         if (!isGround)
         {
             ChangingAnim(State.Run);
+            sound.PlaySound(Sounder.Sfx.Land);
             jumpPower = 1;
         }
 
@@ -77,6 +80,7 @@ public class Dino : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         ChangingAnim(State.Jump);
+        sound.PlaySound(Sounder.Sfx.Jump);
         isGround = false;        
     }
 
@@ -85,6 +89,7 @@ public class Dino : MonoBehaviour
     {
         rigid.simulated = false;
         ChangingAnim(State.Hit);
+        sound.PlaySound(Sounder.Sfx.Hit);
         onHit.Invoke();
 
     }
