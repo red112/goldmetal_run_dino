@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    const float ORIGIN_SPEED = 3;
+    const float ORIGIN_SPEED = 4;
 
     public static float globalSpeed;
     public static float score;

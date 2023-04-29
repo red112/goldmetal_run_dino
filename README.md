@@ -18,8 +18,9 @@ https://www.youtube.com/watch?v=EA6e3UeC_Ik
 07. 장애물 만들기
 -   배경 구름/산 - https://youtu.be/EA6e3UeC_Ik?t=11963
 -   장애물 선인장 - https://youtu.be/EA6e3UeC_Ik?t=12636
-
 08. UI 제작
+- https://www.youtube.com/watch?v=EA6e3UeC_Ik&t=9018s
+
 09. 사운드 시스템
 10. 포스트 프로세싱
 11. 웹 빌드 및 배포
